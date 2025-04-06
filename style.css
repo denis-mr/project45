@@ -66,3 +66,7 @@ h1, h2 {
 .product p {
     margin: 5px 0;
 }
+.large-image {
+    width: 800px; 
+    height: auto; 
+}
