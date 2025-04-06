@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Контакти</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Залиште ваше повідомлення</h2>
+            <form action="https://formspree.io/f/mwkjgpoa" method="POST">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Повідомлення:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Відправити</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Зоомагазин Project45</p>
+    </footer>
+</body>
+</html>
