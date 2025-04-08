@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товарів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Каталог товарів</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Корм</h2>
+            <ul>
+                <li>Сухий корм для собак</li>
+                <li>Консерви для котів</li>
+                <li>Гранули для гризунів</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Іграшки</h2>
+            <ul>
+                <li>М’ячик для собак</li>
+                <li>Лазерна указка для котів</li>
+                <li>Колесо для хом’яка</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Аксесуари</h2>
+            <ul>
+                <li>Повідки</li>
+                <li>Нашийники</li>
+                <li>Переноски</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Форма замовлення</h2>
+            <form action="#" method="post">
+                <label for="name">Ім’я:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="product">Товар:</label><br>
+                <input type="text" id="product" name="product" required><br><br>
+
+                <label for="quantity">Кількість:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+                <label for="contact">Контактний номер:</label><br>
+                <input type="tel" id="contact" name="contact" required><br><br>
+
+                <input type="submit" value="Замовити">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Зоомагазин Project45</p>
+    </footer>
+</body>
+</html>
